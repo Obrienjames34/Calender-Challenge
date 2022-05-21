@@ -1,6 +1,8 @@
 var calendarEl = document.getElementById("calendar");
 var currentDayEl = document.getElementById("currentDay");
 var taskInfoArray = [];
+//line of code is to retrieve item from local storage.
+var storeEvents = JSON.parse()
 //display the current date at the top of the page using moment.js
 const setCurrentDay = () => {
   var currentDay = moment().format("dddd, MMM Do, YYYY");
@@ -26,7 +28,7 @@ const generateHours = () => {
     var saveButtonEl = document.createElement("button");
     saveButtonEl.classList = "col-2 btn-primary";
     saveButtonEl.textContent = "Save";
-    saveButtonEl.addEventListener("click", () => {});
+    saveButtonEl.addEventListener("click", (event) => {});
     hourBlockEl.appendChild(hourTextEl);
     hourBlockEl.appendChild(eventEl);
     hourBlockEl.appendChild(saveButtonEl);
