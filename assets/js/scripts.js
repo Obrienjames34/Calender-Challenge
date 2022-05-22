@@ -1,7 +1,19 @@
-var calendarEl = document.getElementById("calendar");
+var calenderEl = document.getElementById("calender");
 var currentDayEl = document.getElementById("currentDay");
 var taskInfoArray = [];
-//line of code is to retrieve item from local storage.
+var clearButtonEl = document.getElementById("clear-button")
+
+const clearSchedule = () => {
+  var confirmClear = confirm("Are you sure that you want to clear all events?");
+  if (confirmClear) {
+    localStorage.removeItem("calendarEvents");
+    var inputElArray = document.querySelectorAll(".eventInput");
+    for (i = 0; i < inputElArray.length; i++) {
+      inputElArray[i].value = "";
+    }
+  }
+};
+
 
 const populateInfo = () => {
   var storedTaskInfoArray = JSON.parse(localStorage.getItem("calenderEvents"));
@@ -16,6 +28,9 @@ const populateInfo = () => {
 
 //JSON.parse takes our string in local storage from
 // a string '['','','','Coding Hello World,'','']' to an array ['','','','Coding Hello World,'','']
+const storeEvents = () => {
+//getItem retrieves the item from local storage
+}
 //display the current date at the top of the page using moment.js
 
 
