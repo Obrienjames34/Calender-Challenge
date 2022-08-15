@@ -7,8 +7,9 @@ This project is designed to present the user with an editable schedule listed by
 Then if the user enters an event into a timeslot and clicks the save button, the text for that event is saved to local storage so that it can be reloaded the next time the page is loaded.
 
 screenshots below
+<img width="1118" alt="Work Day Scheduler" src="https://user-images.githubusercontent.com/101817569/184656857-77302d31-b9f7-4fa0-8e68-45b1c8d65d81.png">
 
-![work-day-scheduler-header])'
+
 
 User Story
 
