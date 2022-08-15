@@ -1,24 +1,24 @@
-Work Day Scheduler
+# Work Day Scheduler
 
-Description
+# Description
 
 This project is designed to present the user with an editable schedule listed by hour. When the page loads, the current data is done, then the application cheks local staorage for any events and populates the time slots with that information.
 
 Then if the user enters an event into a timeslot and clicks the save button, the text for that event is saved to local storage so that it can be reloaded the next time the page is loaded.
 
-screenshot below
+# screenshot below
 
 <img width="1118" alt="Work Day Scheduler" src="https://user-images.githubusercontent.com/101817569/184656857-77302d31-b9f7-4fa0-8e68-45b1c8d65d81.png">
 
 
 
-User Story
+# User Story
 
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 
-Acceptance Criteria
+# Acceptance Criteria
 
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
