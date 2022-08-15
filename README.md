@@ -1,6 +1,6 @@
-Work Day Scheduler
+# Work Day Scheduler
 
-Description
+# Description
 
 This project is designed to present the user with an editable schedule listed by hour. When the page loads, the current data is done, then the application cheks local staorage for any events and populates the time slots with that information.
 

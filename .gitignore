@@ -1,4 +1,4 @@
-node_modules
-package-lock.jason
-vscode
+.node_modules
+.package-lock.jason
+.vscode
 .DS_store
